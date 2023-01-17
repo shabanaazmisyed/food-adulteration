@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+ 
+   
+    background-repeat: no-repeat;
+    width: 100%;
+   background-image: url("images/index22.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    background-blend-mode: darken;
+    opacity: 0.9;
+}
+
+h1{
+    position: absolute;
+    
+    top: 50%;
+   
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color: white;
+  
+}
+
+
+
+.par{
+    position: absolute;
+    color: white;
+    top: 60%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    text-align: justify;
+}
+.signup{
+    position: absolute;
+    top: 75%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(206, 18, 18);
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    text-align: center;
+  }
+  .signup:hover {
+    background-color: rgb(16, 14, 14);
+    color: white;
+  }
+  .login{
+    position: absolute;
+    top: 75%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(206, 18, 18);
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    text-align: center;
+  }
+
+.login:hover {
+  background-color: rgb(16, 14, 14);
+  color: white;
+}

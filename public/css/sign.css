@@ -1,0 +1,57 @@
+
+            body{
+                background-image: url("images/index22.jpg"), linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5));  
+                           margin: 0;
+                           padding: 0;
+                           font-family: "poppins";
+                           padding-top: 40px;
+                           background-position: center;
+                           background-size: cover;
+                           padding-bottom: 40px;
+                           background-repeat: no-repeat;
+                          
+                       }
+                       .signup{
+                         width: 400px;
+                         height: 460px;
+                         margin: auto;
+                         background-color: rgb(244, 245, 247);
+                         border-radius: 3px;
+                         
+                        
+                        
+           }
+           h1{
+               text-align: center;
+               padding-top:15px;
+           }
+           form{
+               width:300px;
+               margin-left: 30px;
+           }
+           form label{
+               display: flex;
+               margin-top: 20px;
+               font-size: 18px;
+           }
+            form input{
+               width: 90%;
+               padding: 7px;
+               border: none;
+               border: 1px solid gray;
+               border-radius: 2px;
+               outline: none;
+           
+           }
+           input[type="submit"]{
+               width: 320px;
+               height: 35px;
+               margin-top: 20px;
+               border: none;
+               background-color:red;
+               color: white;
+               font-size: 18px;
+           
+               
+           }
+                   
